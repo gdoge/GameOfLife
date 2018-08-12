@@ -1,0 +1,20 @@
+td {
+  width: 20px;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+td:after {
+  display: block;
+  margin-top: 100%;
+}
+
+.imageContent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
